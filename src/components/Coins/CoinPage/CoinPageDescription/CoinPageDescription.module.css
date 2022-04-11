@@ -1,0 +1,13 @@
+.description__item{
+}
+.description__text h3{
+ color:#0071bd;
+ font-size: 1.3rem;
+}
+.description__text p{
+    font-size:  16px;
+    font-family: 'Roboto',Arial,sans-serif;
+}
+.description__links a{
+display: block;
+}

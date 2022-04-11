@@ -1,0 +1,51 @@
+:root{
+    --title-color: #0071bd;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.title{
+    font-size: 1.5rem;
+    color: var(--title-color);
+    margin-bottom: 10px;
+}
+.mainTitle{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.mainP{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.select{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.coinHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.cryptoStats{
+    padding: 0 10px;
+}
+.stats__item{
+    border-bottom: 1px solid #333;
+    padding: 5px;
+    font-size: 20px;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+}
+@media (max-width: 545px) {
+    .select{
+        width: 200px;
+        margin: 0 auto 10px auto;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+}
+

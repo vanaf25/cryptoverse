@@ -1,0 +1,20 @@
+.navBar{
+    width: 300px !important;
+    max-width: 300px !important;
+    min-width: 300px !important;
+    flex: 0 1 300px !important;
+}
+@media (max-width: 767px) {
+    .navBar{
+        position: fixed;
+        left: 0;
+        transition: transform 0.7s;
+        top: 0;
+        z-index: 2;
+        height: 100vh;
+        transform: translateX(-100%);
+    }
+    .navBar.open{
+        transform: translateX(0);
+    }
+}

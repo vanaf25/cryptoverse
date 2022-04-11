@@ -1,0 +1,32 @@
+.app{
+    display: flex;
+}
+.footer{
+    text-align: center;
+    color: #fff;
+    background-color: #001529;
+}
+.openMenu{
+    display: none;
+}
+@media (max-width: 767px) {
+    .openMenu{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 1px solid #eee;
+        background-color: #f5f5f5;
+        position: fixed;
+        z-index: 2;
+        cursor: pointer;
+        left: 20px;
+        transition: filter .3s;
+        bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .openMenu:hover{
+        filter: brightness(90%);
+    }
+}
