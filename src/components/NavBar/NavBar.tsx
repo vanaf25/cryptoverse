@@ -22,9 +22,6 @@ const NavBar:React.FC<{isMobileOpen:boolean}> = ({isMobileOpen}) => {
                 <Menu.Item key="/cryptocurrencies" icon={<FundOutlined />}>
                     <NavLink to={"/cryptocurrencies"}>CryptoCurencies</NavLink>
                 </Menu.Item>
-                <Menu.Item key="/news" icon={<BulbOutlined />}>
-                    <NavLink to={"/news"}>News</NavLink>
-                </Menu.Item>
             </Menu>
         </Sider>
     );
